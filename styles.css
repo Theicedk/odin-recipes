@@ -1,0 +1,56 @@
+body{
+    background-color: lightgoldenrodyellow;
+
+}
+
+.title{
+    font-weight: 800;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 50px;
+    text-align: center;
+    border-bottom: dashed;
+    margin: 30px 500px;
+    padding: 20px; 
+}
+
+img{
+    border-style: dashed;
+    margin: 0px 600px;
+}
+
+ul{
+    font-weight: 800;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 50px;
+    text-align: center;
+    color: black;
+
+}
+
+.desc-element{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 20px;
+    margin: 0px 450px;
+    text-align: justify;
+    font-weight: 200;
+}
+
+.title #aaa{
+    font-size: 10px;
+    margin: 10px;
+}
+
+.desc-element.descrip{
+    margin-bottom: 20px;
+}
+
+.recipes-select{
+    font-weight: 200;
+    font-size: 35px;    
+    margin: 50px 575px;
+    text-align: justify;
+}
+
+li{
+    margin: 15px 0px;
+}

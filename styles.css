@@ -35,9 +35,11 @@ ul{
     font-weight: 200;
 }
 
-.title #aaa{
-    font-size: 10px;
-    margin: 10px;
+#aaa{
+    font-size: 25px;
+    margin: 50px 800px;
+    font-family:'Courier New', Courier, monospace;
+    
 }
 
 .desc-element.descrip{

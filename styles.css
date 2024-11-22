@@ -1,58 +1,37 @@
-body{
-    background-color: lightgoldenrodyellow;
-
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
 }
 
-.title{
-    font-weight: 800;
-    font-family:'Courier New', Courier, monospace;
-    font-size: 50px;
+
+*{
+    
+    padding: 0;
+    
+    background-color: lightgoldenrodyellow;
+}
+
+.title, .recipes-select, img{
+    font-size: 45px;
+    width: 400px;
+    height: auto;
+    margin: 2rem auto 1rem;
     text-align: center;
-    border-bottom: dashed;
-    margin: 30px 500px;
-    padding: 20px; 
 }
 
 img{
-    border-style: dashed;
-    margin: 0px 600px;
-}
-
-ul{
-    font-weight: 800;
-    font-family:'Courier New', Courier, monospace;
-    font-size: 50px;
-    text-align: center;
-    color: black;
-
-}
-
-.desc-element{
-    font-family:'Courier New', Courier, monospace;
-    font-size: 20px;
-    margin: 0px 450px;
-    text-align: justify;
-    font-weight: 200;
-}
-
-#aaa{
-    font-size: 25px;
-    margin: 50px 800px;
-    font-family:'Courier New', Courier, monospace;
+    display: block;
+    border: 0.5rem dashed black;
     
 }
 
-.desc-element.descrip{
-    margin-bottom: 20px;
-}
-
 .recipes-select{
-    font-weight: 200;
-    font-size: 35px;    
-    margin: 50px 575px;
-    text-align: justify;
+    font-size: 25px;
 }
 
-li{
-    margin: 15px 0px;
+.desc-element{
+    margin: 1rem 25%;
+    text-align: justify;
+    
 }
